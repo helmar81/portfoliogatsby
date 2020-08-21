@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'My Portfolio',
     author: 'Helmar Baechle',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    description: 'create with Gatsby blazing fast Apps',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,7 +17,15 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/HelmarLogo.png', // This path is relative to the root of the site.
       },
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-130557103-21",
+      },
+    
+
     },
     'gatsby-plugin-sass',
   ],
 }
+
