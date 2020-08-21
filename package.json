@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "portfolio",
+  "description": "created with Gatsby",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Helmar Baechle",
   "dependencies": {
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
@@ -14,7 +14,16 @@
     "react-helmet": "^5.2.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "helmar",
+    "baechle",
+    "webdesign",
+    "react",
+    "nextjs",
+    "portfolio",
+    "german",
+    "english",
+    "project"
   ],
   "license": "MIT",
   "scripts": {
@@ -28,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/helmar81/portfoliogatsby"
   }
 }
